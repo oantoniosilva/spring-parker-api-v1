@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: bitnami/postgresql
+    container_name: parker_container
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USERNAME=docker
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_DATABASE=parkerdb
