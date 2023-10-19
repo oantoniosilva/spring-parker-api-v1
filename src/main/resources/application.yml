@@ -2,7 +2,7 @@ spring:
   # Database
   datasource:
     #driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/daily_diet_db
+    url: jdbc:postgresql://localhost:5432/parkerdb
     username: docker
     password: docker
 
